@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora financiera</title>
+</head>
+<body>
+        <section>
+            <h1>Calculadora financiera</h1>
+            <p>Exclusiva para clientes de nuestra banca. Si no eres cliente, haz <a href="noclientes.html">click aquí</a></p> 
+        </section>
+        <div class="form">
+            <label for="dinero">Dinero a solicitar :</label>
+            <input type="number" name="" id="dinero">
+        </div>
+        <div class="form">
+            <label for="interes">Selecciona interés :</label>
+            <input type="number" name="" id="interes">
+        </div>
+        <div class="form">
+            <label for="cuotas">Cuotas (meses):</label>
+            <input type="number" name="" id="cuotas">
+        </div>
+        <button onclick="calcularPagos()"> Calcular préstamo </button>
+</body>
+</html>
